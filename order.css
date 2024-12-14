@@ -1,0 +1,137 @@
+body {
+    background-color: #FBF9F1;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 650px;
+    width: 650px;
+    background-color: #AAD7D9;
+    border-radius: 10px;
+}
+
+b {
+    margin-left: 40px;
+    padding-top: 50px;
+}
+
+.name {
+    margin-left: 40px;
+    height: 30px;
+    border: none;
+    width: 563px;
+}
+
+.num {
+    margin-left: 40px;
+    height: 30px;
+    border: none;
+    width: 563px;
+}
+
+#area {
+    margin-left: 40px;
+    height: 50px;
+    width: 563px;
+    border: none;
+}
+
+#pay {
+    margin-left: 40px;
+    height: 30px;
+    width: 563px;
+    border: none;
+}
+
+button {
+    border-radius:10px;
+    background-color: #355E3B;
+    height: 40px;
+    border: none;
+    margin-left: 240px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+     
+}
+
+#product,
+#price {
+    margin-left: 40px;
+    height: 30px;
+    border: none;
+    width: 563px;
+}
+
+.order {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width:375px) {
+    body {
+        background-color: #FBF9F1;
+        height: 700px;
+        width: 100%;
+    }
+    .cont {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        height: 580px;
+        width: 80%;
+        background-color: #AAD7D9;
+        border-radius: 10px;
+    }
+    b {
+        margin-left: 20px;
+        padding-top: 0px;
+    }
+    .name {
+        margin-left: 20px;
+        height: 20px;
+        border: none;
+        width: 250px;
+    }
+    .num {
+        margin-left: 20px;
+        height: 20px;
+        border: none;
+        width: 250px;
+    }
+    #area {
+        margin-left: 20px;
+        height: 50px;
+        width: 250px;
+        border: none;
+    }
+    #pay {
+        margin-left: 20px;
+        height: 30px;
+        width: 250px;
+        border: none;
+    }
+    button {
+        
+        background-color: #355E3B;
+        height: 40px;
+        border: none;
+        
+        margin-left: 90px;
+    }
+   
+    #product , #price {
+        margin-left: 20px;
+        height: 30px;
+        border: none;
+        width: 250px;
+    }
+}
